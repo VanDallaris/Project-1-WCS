@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link rel="icon" href="logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200&family=Merriweather:ital@0;1&family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="nav">
@@ -12,22 +20,21 @@
         <img src="favicon-32x32.png" alt="logo SportMate" />
       </a>
       <ul class="list">
-        <li>Not a member?</li>
+        <li class="left">Not a member?</li>
         <li>
-          <a href=""><button>Become one</button></a>
+          <a href="register.html"><button class="btn">Become one</button></a>
         </li>
         <li>
-          <a href=""><button>Sign in</button></a>
+          <a href="sign-in.html"><button class="btn">Sign in</button></a>
         </li>
       </ul>
-      <a href="">Blog</a>
+      <a href="blog.html" class="blog">Blog</a>
     </nav>
+
     <main>
       <div class="container">
         <div class="card">
-          <div>
-            <img src="images/hiking.jpg" alt="" />
-          </div>
+          <img src="images/hiking.jpg" class="image" alt="" />
           <div class="content">
             <h4>Hiking was awesome</h4>
             <p>
@@ -38,13 +45,11 @@
               Little did I know that this simple connection would unlock a world
               of exploration and friendship.
             </p>
-            <a href="">Read More</a>
+            <a href=""><button class="readmore">Read More</button></a>
           </div>
         </div>
         <div class="card">
-          <div>
-            <img src="images/beach ball.jpg" alt="" />
-          </div>
+          <img src="images/beach ball.jpg" class="image" alt="" />
           <div class="content">
             <h4>Meeting new people every week</h4>
             <p>
@@ -54,13 +59,11 @@
               like-minded individuals and transformed their volleyball sessions
               into unforgettable adventures.
             </p>
-            <a href="">Read More</a>
+            <a href=""><button class="readmore">Read More</button></a>
           </div>
         </div>
         <div class="card">
-          <div>
-            <img src="images/jogging" alt="" />
-          </div>
+          <img src="images/jogging.jpg" class="image" alt="" />
           <div class="content">
             <h4>It nice to have some to jog with</h4>
             <p>
@@ -74,21 +77,22 @@
               SportMate in helping me discover the joy of running with a
               newfound friend.
             </p>
-            <a href="">Read More</a>
+            <a href=""><button class="readmore">Read More</button></a>
           </div>
         </div>
-        <div>
+        <div class="card">
           <form>
             <input type="text" />
             <button>Search</button>
-            <button>Weekly challenges</button>
-            <button>Perfomers of the week</button>
+            <div class="search-bar">
+              <h3>SportMate Blog</h3>
+              <button>Weekly challenges</button>
+              <button>Perfomers of the week</button>
+            </div>
           </form>
         </div>
         <div class="card">
-          <div>
-            <img src="images/yoga" alt="" />
-          </div>
+          <img src="images/yoga.jpg" class="image" alt="" />
           <div class="content">
             <h4>After a hard week it nice to relax</h4>
             <p>
@@ -99,7 +103,48 @@
               breathing exercises, elevated our sessions, enabling us to
               experience a profound sense of calm and tranquility.
             </p>
-            <a href="">Read More</a>
+            <a href=""><button class="readmore">Read More</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/06/27/09/00/roller-skates-3501093_640.jpg"
+            class="image"
+            alt=""
+          />
+          <div class="content">
+            <h4>Rollerskating is a fantastic activity</h4>
+            <p>
+              Roller skating is a fantastic activity to enjoy during the summer
+              months, and finding a mate through SportMate has made it even more
+              enjoyable. With a newfound roller skating buddy, you can explore
+              the exhilarating world of skating together and make lasting
+              memories. Roller skating not only provides a fun and thrilling
+              experience but also offers numerous health and fitness benefits.
+              The added camaraderie and support from your roller skating mate
+              create an atmosphere of encouragement and motivation, making it
+              easier to learn new skills and push your limits.
+            </p>
+            <a href=""><button class="readmore">Read More</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/04/27/08/29/man-2264825_640.jpg"
+            class="image"
+            alt=""
+          />
+          <div class="content">
+            <h4>I like going to the gym now!</h4>
+            <p>
+              Embarking on a fitness journey can be challenging, but finding a
+              gym buddy or a sports mate can make all the difference. Having
+              someone by your side, cheering you on and pushing you to reach
+              your goals, can turn your gym sessions into exciting and rewarding
+              experiences. In this blog post, we will explore the power of a gym
+              buddy and how they can help you achieve your fitness goals.
+            </p>
+            <a href=""><button class="readmore">Read More</button></a>
           </div>
         </div>
       </div>

@@ -5,202 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link rel="icon" href="logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200&family=Merriweather:ital@0;1&family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="nav">
-      <a href="index.html" class="header__logo">
-        <img src="favicon-32x32.png" alt="logo SportMate" />
-      </a>
-      <ul class="list">
-        <li>Not a member?</li>
-        <li>
-          <a href=""><button>Become one</button></a>
-        </li>
-        <li>
-          <a href=""><button>Sign in</button></a>
-        </li>
-      </ul>
-      <a href="">Blog</a>
-    </nav>
+    <header class="top-header">
+      <nav class="nav">
+        <a href="index.html" class="header__logo">
+          <img src="favicon-32x32.png" alt="logo SportMate" />
+        </a>
+        <ul class="list">
+          <li class="left">Not a member?</li>
+          <li>
+            <a href="register.html"><button class="btn">Become one</button></a>
+          </li>
+          <li>
+            <a href="sign-in.html"><button class="btn">Sign in</button></a>
+          </li>
+        </ul>
+        <a href="blog.html" class="blog">Blog</a>
+      </nav>
+      <h2 class="heading-reg">More than 100.000 have join sport mate. Why don't you join to</h2>
+      <h3 class="heading-reg">Just to know you well, we need some more information</h3>
+    </header>
     <main>
-      <header>
-        <p>More than 100.000 have join sport mate. Why don't you join to</p>
-      </header>
-      <section>
-        <div>
-          <p>Just to know you well, we need some more information</p>
+      
+      <div class="box">
+        <p>1. Are you looking for a woman or man?</p>
+        <div class="choice">
+          <label for="">
+            <input type="checkbox" />
+            <span>Man</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Woman</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Does not matter</span>
+          </label>
         </div>
+      </div>
+
+      <div class="box">
+        <p>2. Which sport do you like to do?</p>
+        <div class="grid">
+          <label for="">
+            <input type="checkbox" />
+            <span>Jogging</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Basket ball</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Football</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Yoga</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Tennis</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Table Tennis</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Swimming</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Volleyball</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Going to the gym</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Squash</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Hiking</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Dancing</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Biking</span>
+          </label>
+          <label for="">
+            <input type="checkbox" />
+            <span>Going to the gym</span>
+          </label>
+        </div>
+      </div>
+      
+      <div class="box">
+        <p>3. To make a good match please answer the following</p>
         <div>
-          <p>Are you looking for a woman or man?</p>
-          <div>
-            <label for="">
+          <p>Are you a man or woman?</p>
+          <label for="">
               <input type="checkbox" />
               <span>Man</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
+          </label>
+          <label for="">
               <input type="checkbox" />
               <span>Woman</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Does not matter</span>
-            </label>
-          </div>
+          </label>
         </div>
         <div>
-          <p>Which sport do you like to do?</p>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Jogging</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Basket ball</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Football</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Yoga</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Tennis</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Table Tennis</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Swimming</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Volleyball</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Going to the gym</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Squash</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Hiking</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Dancing</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Biking</span>
-            </label>
-          </div>
-          <div>
-            <label for="">
-              <input type="checkbox" />
-              <span>Going to the gym</span>
-            </label>
-          </div>
+          <p>What is your age?</p>
+          <form>
+            <label for="age">Choose your range:</label>
+              <select name="age">
+                  <option value="">18-25</option>
+                  <option>25-35</option>
+                  <option>below 50</option>
+                  <option>above 50</option>
+              </select>
         </div>
 
         <div>
-          <p>To make a good match please answer the following</p>
-          <div>
-            <div>
-              <p>Are you a man or woman?</p>
-              <div>
-                <label for="">
-                  <input type="checkbox" />
-                  <span>Man</span>
-                </label>
-                <label for="">
-                  <input type="checkbox" />
-                  <span>Woman</span>
-                </label>
-              </div>
-            </div>
-            <div>
-              <p>What is your age?</p>
-              <div>
-                <form>
-                  <label for="age">Choose your range:</label>
-                  <select name="age">
-                    <option value="">18-25</option>
-                    <option>25-35</option>
-                    <option>below 50</option>
-                    <option>above 50</option>
-                  </select>
-              </div>
-            </div>
-            <div>
-  
-                <form>
-                  <label for="fname">What is you name:</label>
-                  <input type="text" id="fname" name="fname"><br><br>
-                </form>
-          
-            </div>
-            <div>
-              <p>Are you ready to join?</p>
-              <div>
-                <form action="/action_page.php">
-                  <label for="fname">First name:</label><br>
-                  <input type="text" id="fname" name="fname" value="John"><br>
-                  <label for="lname">Last name:</label><br>
-                  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    
-                </form> 
-              </div>
-            </div>
-            <div>
-              <button>Sign up and meet your direct match</button>
-            </div>
-          </div>
+          <form>
+            <label for="fname">What is you name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+          </form>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div>&copy; 2023 SportMate</div>
-      <div>
-        <img src="images/facebook.png" alt="" />
-        <img src="images/instagram.png" alt="" />
       </div>
-    </footer>
-  </body>
+
+      <div class="join-us">
+        <p>4. Are you ready to join?</p>
+          <form action="">
+              <label for="fname">First name:</label><br>
+              <input type="text"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text"><br><br>
+          </form> 
+      </div>
+      <div>
+        <button class="btn-sign">Sign up and meet your direct match</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+        <div>&copy; 2023 SportMate</div>
+        <div>
+          <img src="images/facebook.png" alt="" />
+          <img src="images/instagram.png" alt="" />
+        </div>
+  </footer>
+</body>
 </html>
