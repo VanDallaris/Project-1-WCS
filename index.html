@@ -6,46 +6,53 @@
     <title>SportMate</title>
     <link rel="icon" href="logo.ico" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200&family=Merriweather:ital@0;1&family=Roboto:wght@100;300;400&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200&family=Merriweather:ital@0;1&family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="nav">
         <a href="index.html" class="header__logo">
-          <img src="favicon-32x32.png" alt="logo SportMate" />
+          <div class="logo-container">
+            <img src="favicon-32x32.png" alt="logo SportMate" />
+            <h1>SportMate</h1>
+          </div>
         </a>
         <ul class="list">
           <li class="left">Not a member?</li>
           <li>
-            <a href="register.html"><button>Become one</button></a>
+            <a href="register.html"><button class="btn">Become one</button></a>
           </li>
           <li>
-            <a href="sign-in.html"><button>Sign in</button></a>
+            <a href="sign-in.html"><button class="btn">Sign in</button></a>
           </li>
         </ul>
-        <a href="blog.html">Blog</a>
+        <a href="blog.html" class="blog">Blog</a>
       </nav>
       <div class="display">
         <h1>SportMate</h1>
-        <h2>Get motivated today, stay healthy and happhy</h2>
-        <p>
+        <h2>Get motivated today, stay healthy and happy</h2>
+        <h3>
           SportMate is a platform where you can do sport and meet new people
-        </p>
+        </h3>
         <a href="/sportbuddy.html">
-          <button>Find your match</button>
+          <button class="find-your-match">Find your match</button>
         </a>
       </div>
     </header>
     <main>
-      <div class="">
+      <div class="top">
         <img
           src="images/istockphoto-640351570-612x612.jpg"
           alt="two people stretching"
+          class="img"
         />
-        <div>
-          <p>
+        <div class="text-index-container">
+          <p class="text">
             Are you tired of having to exercise alone? Can't find the motivation
             to start exercising? SportMate can help you with that! SportMate is
             an online platform where you can find your future workout mate. Post
@@ -53,63 +60,77 @@
             you feel comfortable with and make plans to exercise together. Who
             knows, you might find a workout mate sooner than you think.
           </p>
-          <a href=""><button>Become one</button></a>
+          <a href="register.html"><button class="btn">Become one</button></a>
         </div>
       </div>
-      <div>
-        <div><p>Why sport mate?</p></div>
-        <div>
-          <div class="block">
-            <div class="image">
-              <img src="https://media.istockphoto.com/id/1444399074/photo/basketball-winner-and-hands-team-high-five-for-outdoor-game-success-diversity-and-victory.webp?b=1&s=170667a&w=0&k=20&c=8f4GdeB_1xBnGKALqWi-8zanDltcCyTHr-LFObIQkbM=" alt="">
-              </div>
-              <h4 class="">Enhanced motivation</h4>
-              <div class=""></div>
-              <p class="">
-                Engaging in sports activities with a partner can significantly 
-                boost motivation and accountability. Sport Mate recognizes the 
-                importance of these factors and emphasizes the value of having a
-                sports buddy to stay committed to fitness goals. By joining the website, 
-                users can establish connections with sports partners who share similar goals and aspirations. This built-in accountability system encourages regular participation, increases motivation, and ultimately helps users achieve better results in their sports endeavors. Whether users are looking to challenge themselves, improve their fitness, or simply enjoy sports in a social setting, Sport Mate provides the support and encouragement necessary to stay committed and inspired.
-              </p>
-            </div>
-            <div class="image">
-              <img src="" alt="">
-              </div>
-              <h4 class="https://media.istockphoto.com/id/1201798748/photo/woman-company-representative-holds-out-hand-for-handshake-welcoming-client.jpg?b=1&s=612x612&w=0&k=20&c=aMOgxZhCDh-2F-WRoZCyKOTdUiOvtAMkNoHpJ2gMASs=">Meet new people</h4>
-              <div class=""></div>
-              <p class="">
-                port Mate provides an excellent avenue for expanding your social circle by connecting with 
-                individuals who share a common interest in sports and physical activities. 
-                By joining the platform, you have the chance to meet and interact with like-minded people who are passionate about sports, 
-                fostering new friendships and connections. Engaging with individuals who have similar interests can lead to meaningful relationships, both within the context of sports activities and beyond. 
-              </p>
-            </div>
-            <div class="image">
-              <img src="https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-              </div>
-              <h4 class="">Health</h4>
-              <div class=""></div>
-              <p class="">
-                By joining Sport Mate and incorporating regular sports activities into one's routine, 
-                individuals can proactively work towards achieving and maintaining optimal health. 
-                The platform offers a range of sports options catering to different interests and skill levels, 
-                ensuring that users can find activities they enjoy and are more likely to engage in consistently, 
-                reaping the long-term health benefits.
-              </p>
-            </div>
+      <h3 class="heading-2">Why sport mate?</h3>
+      <div class="bottom">
+        <div class="block">
+          <div>
+            <img
+              class="image"
+              src="https://media.istockphoto.com/id/1444399074/photo/basketball-winner-and-hands-team-high-five-for-outdoor-game-success-diversity-and-victory.webp?b=1&s=170667a&w=0&k=20&c=8f4GdeB_1xBnGKALqWi-8zanDltcCyTHr-LFObIQkbM="
+              alt=""
+            />
+          </div>
+          <div class="">
+            <h4 class="title">Enhanced motivation</h4>
+            <p class="">
+              Engaging in sports activities with a partner can significantly
+              boost motivation and accountability. Sport Mate recognizes the
+              importance of these factors and emphasizes the value of having a
+              sports buddy to stay committed to fitness goals. By joining the
+              website, users can establish connections with sports partners who
+              share similar goals and aspirations.
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div>
+            <img class="image" src="images/meet-new.jpg" alt="" />
+          </div>
+          <div class="">
+            <h4 class="title">Meet new people</h4>
+            <p class="">
+              Sport Mate provides an excellent avenue for expanding your social
+              circle by connecting with individuals who share a common interest
+              in sports and physical activities. By joining the platform, you
+              have the chance to meet and interact with like-minded people who
+              are passionate about sports, fostering new friendships and
+              connections.
+            </p>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <img
+              class="image"
+              src="https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <h4 class="title">Health</h4>
+            <p class="">
+              By joining Sport Mate and incorporating regular sports activities
+              into one's routine, individuals can proactively work towards
+              achieving and maintaining optimal health. The platform offers a
+              range of sports options catering to different interests and skill
+              levels, ensuring that users can find activities they enjoy and are
+              more likely to engage in consistently, reaping the long-term
+              health benefits.
+            </p>
+          </div>
         </div>
       </div>
     </main>
     <footer>
-    <div>
-     &copy; 2023 SportMate
-    </div>
-    <div>
-      <img src="images/facebook.png" alt="">
-      <img src="images/instagram.png" alt="">
-    </div>
+      <div>&copy; 2023 SportMate</div>
+      <div>
+        <img src="images/facebook.png" alt="" />
+        <img src="images/instagram.png" alt="" />
+      </div>
     </footer>
-
   </body>
 </html>
