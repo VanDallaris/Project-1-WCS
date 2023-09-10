@@ -1,3 +1,4 @@
+
 header {
     background-image: none;
 }
@@ -7,15 +8,9 @@ header {
     background-repeat: no-repeat;
 }
 
-
-
-/* body {
-    background-image: url(images/valentin-bolder-KF7Cx94z8-4-unsplash.jpg) ;
-    background-repeat: no-repeat;
-
-
-} */
-
+p {
+    margin: 8px 0;
+}
 main {
    display: flex;
    flex-direction: column;
@@ -24,6 +19,10 @@ main {
 
 .heading-reg {
     text-align: center;
+}
+
+.fix-margin {
+    margin: 5px 0;
 }
 
 .choice {
@@ -54,8 +53,13 @@ main {
     padding: 20px;
     width: 80%;
     height:fit-content;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto 0;
+}
+
+.btn-container{
+    width: 80%;
+    height:fit-content;
+    margin: 20px auto 0;
 }
 
 .btn-sign {
@@ -63,7 +67,7 @@ main {
     padding: 10px;
     border-radius: 5px;
     background-color: #0d86ff;
-    margin-left: 155px;
+    /* margin-left: 155px; */
 } 
 
 footer {

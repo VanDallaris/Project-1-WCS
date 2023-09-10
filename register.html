@@ -18,7 +18,10 @@
     <header class="top-header">
       <nav class="nav">
         <a href="index.html" class="header__logo">
-          <img src="favicon-32x32.png" alt="logo SportMate" />
+          <div class="logo-container">
+            <img src="favicon-32x32.png" alt="logo SportMate" />
+            <h1>SportMate</h1>
+          </div>
         </a>
         <ul class="list">
           <li class="left">Not a member?</li>
@@ -129,10 +132,9 @@
               <span>Woman</span>
           </label>
         </div>
-        <div>
-          <p>What is your age?</p>
+        <div class="fix-margin">
           <form>
-            <label for="age">Choose your range:</label>
+            <label for="age">What is your age? Choose your range:</label>
               <select name="age">
                   <option value="">18-25</option>
                   <option>25-35</option>
@@ -153,12 +155,12 @@
         <p>4. Are you ready to join?</p>
           <form action="">
               <label for="fname">First name:</label><br>
-              <input type="text"><br>
+              <input name="fname" type="text" /><br>
               <label for="lname">Last name:</label><br>
-              <input type="text"><br><br>
+              <input name="lname" type="text"><br><br>
           </form> 
       </div>
-      <div>
+      <div class="btn-container">
         <button class="btn-sign">Sign up and meet your direct match</button>
       </div>
     </div>

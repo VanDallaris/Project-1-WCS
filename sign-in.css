@@ -21,6 +21,15 @@ a {
     color: white;
 }
 
+.a-btn {
+    padding: 5px 5px 5px 0;
+    margin: 5px 0;
+}
+
 footer {
     margin-top: 0px;
+}
+
+.footer-copy{
+    color: black;
 }

@@ -40,5 +40,15 @@ body {
 .readmore {
     color: brown;
     padding: 10px;
+    margin-top: 5px;
+}
+
+.readmore:hover {
+    color: brown;
+    background-color: white;
+}
+
+h4 {
+    margin: 5px 0px;
 }
 
